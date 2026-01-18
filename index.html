@@ -5,9 +5,9 @@
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:title" content="Deep Sketch-Based 3D Modeling: A Survey"/>
+  <meta property="og:description" content="Deep Sketch-Based 3D Modeling: A Survey Alberto Tono et al."/>
+  <meta property="og:url" content="https://github.com/CDInstitute/Morpheus"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/Morpheus.png" />
   <meta property="og:image:width" content="1200"/>
@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>Deep Sketch-Based 3D Modeling: A Survey</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -172,19 +172,7 @@
   </div>
 </section>
 
-  <!-- Main project image -->
-<section class="hero is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop has-text-centered">
-      <figure class="image">
-        <img src="static/images/Morpheus.png"
-             alt="Project overview image"
-             style="max-width: 100%; height: auto;">
-      </figure>
-    </div>
-  </div>
-</section>
-
+ 
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -193,7 +181,6 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            <strong>Abstract</strong><br>
             <em>
               In the past decade, advances in artificial intelligence have revolutionized sketch-based 3D modeling,
               leading to a new paradigm known as Deep Sketch-Based 3D Modeling (DS-3DM).
@@ -203,9 +190,9 @@
               This paper contributes a comprehensive survey of the latest DS-3DM within a novel design space:
               <strong>MORPHEUS</strong>.
               Built upon the Input-Model-Output (IMO) framework, <strong>MORPHEUS</strong> categorizes
-              <strong>Models</strong> outputting <strong>Options</strong> of 3D representations and parts,
+              <strong>M</strong>odels outputting <strong>O</strong>ptions of 3D <strong>R</strong>epresentations and <strong>P</strong>arts,
               derived from <strong>Human</strong> inputs (varying in quantity and modality),
-              and evaluated across diverse user views and styles.
+              and <strong>E</strong>valuated across diverse <strong>U</strong>ser views and <strong>S</strong>tyles.
               Throughout <strong>MORPHEUS</strong> we highlight limitations and identify opportunities for
               interdisciplinary research in Computer Vision, Computer Graphics, and Human-Computer Interaction,
               revealing a need for controllability and information-rich outputs.
@@ -219,6 +206,36 @@
   </div>
 </section>
 <!-- End paper abstract -->
+
+  
+<!-- Main project image with caption -->
+<section class="section">
+  <div class="container has-text-centered">
+    <figure class="image">
+      <img src="static/images/Morpheus.png"
+           alt="Figure 1: MORPHEUS design space overview"
+           style="width: 100%; max-width: 1600px; height: auto;">
+
+      <figcaption class="has-text-centered"
+                  style="margin-top: 0.75rem; font-size: 0.9rem; color: #555;">
+        <strong>Figure&nbsp;1.</strong>
+        Illustrates our design space <strong>MORPHEUS</strong> organized around the
+        Input-Model-Output (IMO) framework used to survey deep sketch-based 3D modeling
+        (DS-3DM) methods. The Input is categorized into the amount of sketches, their
+        type of viewpoint, and sketch styles with their respective subcategories.
+        The Model is categorized based on the architecture type: neural networks,
+        implicit functions, diffusion models, transformers, differentiable renderers,
+        and foundation models. The Output is categorized by the 3D output compositions,
+        such as part-based semantic, number of options, and geometric topology as well
+        as their corresponding subcategories. The background displays the qualitative
+        and quantitative metrics used to evaluate DS-3DM. The figure encapsulates the
+        paper’s goal: enabling a user-controlled process driven by human-centric metrics
+        to support informed design.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+ 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">

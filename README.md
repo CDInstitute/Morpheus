@@ -16,6 +16,12 @@ We have compiled a chronological list of the primary papers referenced in this s
 
 🔗[Literature Review](https://github.com/albertotono/DeepSketch-Based-3D-Modeling).
 
+## Presentation Slides
+
+📄 **[View the Presentation Slides (PDF)](https://github.com/CDInstitute/Morpheus/blob/main/static/pdfs/EG_Morpheus_Shared.pdf)**
+
+*Click the link above to view our slides directly in your browser using GitHub's native PDF viewer.*
+
 ## Acknowledgments
 
 We acknowledge Karen Liu, Yael Vinker, Judith Fan, Alexandra Bonnicci, Dima Smirnov, Elena Colombini and Paul Guerrero for their feedback. Furthermore, the authors thank  Hannah Luxenberg-Tono, Alberto Taiuti, Simge Girgin, Eleni Alexandraki, Luc Houriez, Allie Cemalovic, Bochen Zhang, Alissa Cooperman, Andrej Krevl, Simi Aluko, Robyn Brinks Lockwood, Lisa Modifica, Veronica Augustina Bot, Samantha Bennett, Tara Srirangarajan, Collin Anthony Chen, and Yulia Gryaditskaya for their inspiration, suggestions, reviews, and support throughout the publication. The work is supported by CIFE Seed Grants, the Wu Tsai Neurosciences Institute and the Koret Human Neurosciences Community Lab (HNCL), Amazon (AWS), NVIDIA, Adobe, Google, the McCoy Family Center for Ethics in Society, and Stanford HAI. 
